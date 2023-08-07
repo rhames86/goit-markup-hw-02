@@ -4,30 +4,47 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <link rel="stylesheet" href="./CSS/styles.css" />
   </head>
   <body>
-    <header>
-      <a href="./index.html">WebStudio</a>
+    <header class="header-home">
+      <a href="./index.html" class="logo-inicio">WebStudio</a>
       <nav>
-        <ul>
-          <li><a href="#">Estudio</a></li>
-          <li><a href="#">Portafolio</a></li>
-          <li><a href="#">Contactos</a></li>
+        <ul class="site-nav">
+          <li><a href="./index.html" class="site-nav">Estudio</a></li>
+          <li><a href="#" class="site-nav current">Portafolio</a></li>
+          <li><a href="#" class="site-nav">Contactos</a></li>
         </ul>
       </nav>
       <ul>
-        <li><a href="mailto:info@devstudio.com"> info@devstudio.com</a></li>
-        <li><a href="tel:+525555296000"> +52 55 5529 6000</a></li>
+        <li><a href="mailto:info@devstudio.com" class="contact-links"> info@devstudio.com</a></li>
+        <li><a href="tel:+525555296000" class="contact-links"> +52 55 5529 6000</a></li>
       </ul>
     </header>
     <main>
-      <section id="main__Productos">
-        <h2>Nuestro Equipo</h2>
+      <ul>
+        <li>
+          <button type="button" class="boton-top-portafolio">Todo</button>
+        </li>
+        <li>
+          <button type="button" class="boton-top-portafolio">Sitios-web</button>
+        </li>
+        <li>
+          <button type="button" class="boton-top-portafolio">Aplicaciones</button>
+        </li>
+        <li>
+          <button type="button" class="boton-top-portafolio">Diseño</button>
+        </li>
+        <li>
+          <button type="button" class="boton-top-portafolio">Marketing</button>
+        </li>
+      </ul>
+      <section id="portafolio__Productos">
         <ul>
           <li>
             <img src="./Imagenes/Tecnoduck.jpg" alt="Tecnoduck" width="270" />
-            <h3>Tecnoduck</h3>
-            <p>Sitio-web</p>
+            <h3 class="nombre-de-producto">Tecnoduck</h3>
+            <p class="categoria">Sitio-web</p>
           </li>
           <li>
             <img
@@ -35,7 +52,7 @@
               width="270"
               alt="Póster de Nueva Orleans vs Estrella Dorada"
             />
-            <h3>Póster de Nueva Orleans vs Estrella Dorada</h3>
+            <h3 class="nombre-de-producto">Póster de Nueva Orleans vs Estrella Dorada</h3>
           </li>
           <li>
             <img
@@ -43,18 +60,18 @@
               width="270"
               alt="Restaurante de Mariscos"
             />
-            <h3>Restaurante Seafood</h3>
-            <p>Aplicaciones</p>
+            <h3 class="nombre-de-producto">Restaurante Seafood</h3>
+            <p class="categoria">Aplicaciones</p>
           </li>
           <li>
             <img src="./Imagenes/Proyecto Prime.jpg" width="270" alt="Proyecto Prime" />
-            <h3>Proyecto Prime</h3>
-            <p>Marketing</p>
+            <h3 class="nombre-de-producto">Proyecto Prime</h3>
+            <p class="categoria">Marketing</p>
           </li>
           <li>
             <img src="./Imagenes/Proyecto Cajas.jpg" alt="Proyecto Cajas" width="270" />
-            <h3>Proyecto Cajas</h3>
-            <p>Aplicaciones</p>
+            <h3 class="nombre-de-producto">Proyecto Cajas</h3>
+            <p class="categoria">Aplicaciones</p>
           </li>
           <li>
             <img
@@ -62,18 +79,18 @@
               alt="La inspiración no tiene límites"
               width="270"
             />
-            <h3>La inspiración no tiene límites</h3>
-            <p>Sitio-web</p>
+            <h3 class="nombre-de-producto">La inspiración no tiene límites</h3>
+            <p class="categoria">Sitio-web</p>
           </li>
           <li>
             <img src="./Imagenes/Edición Limitada.jpg" alt="Edición Limitada" width="270" />
-            <h3>Edición Limitada</h3>
-            <p>Diseño</p>
+            <h3 class="nombre-de-producto">Edición Limitada</h3>
+            <p class="categoria">Diseño</p>
           </li>
           <li>
             <img src="./Imagenes/Proyecto LAB.jpg" alt="Proyecto LAB" width="270" />
-            <h3>Proyecto LAB</h3>
-            <p>Marketing</p>
+            <h3 class="nombre-de-producto">Proyecto LAB</h3>
+            <p class="categoria">Marketing</p>
           </li>
           <li>
             <img
@@ -81,19 +98,25 @@
               alt="Negocio en Crecimiento"
               width="270"
             />
-            <h3>Negocio en Crecimiento</h3>
-            <p>Aplicaciones</p>
+            <h3 class="nombre-de-producto">Negocio en Crecimiento</h3>
+            <p class="categoria">Aplicaciones</p>
           </li>
         </ul>
       </section>
     </main>
-    <footer id="contactos">
-      <a href="#">WebStudio</a>
+    <footer class="footer-portafolio" id="portafolio-contactos">
+      <a class="logo-footer" href="#">WebStudio</a>
       <address>
         <ul>
-          <li><a href="#">Calz. Ticomán 500, Ciudad de México, CDMX, México</a></li>
-          <li><a href="mailto:info@example.com"> info@example.com</a></li>
-          <li><a href="tel:+525555296000"> +52 55 5529 6000</a></li>
+          <li>
+            <a class="direccion-portafolio" href="#"
+              >Calz. Ticomán 500, Ciudad de México, CDMX, México</a
+            >
+          </li>
+          <li>
+            <a class="email-footer-portafolio" href="mailto:info@example.com"> info@example.com</a>
+          </li>
+          <li><a class="tel-footer-portafolio" href="tel:+525555296000"> +52 55 5529 6000</a></li>
         </ul>
       </address>
     </footer>
