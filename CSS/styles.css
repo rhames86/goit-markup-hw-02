@@ -69,7 +69,6 @@ ul {
   background-color: #2f303a;
   align-items: center;
   width: 1600px;
-  height: 400px;
   line-height: 60px;
   letter-spacing: 0.03em;
   display: block;
@@ -147,12 +146,20 @@ ul {
   line-height: 24px;
   letter-spacing: 0.03em;
   text-align: left;
+  color: #ffffff99;
+}
+.direccion:hover {
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  text-align: left;
   color: #ffffff;
 }
 .footer {
   background: #2f303a;
   width: 1600px;
-  height: 252px;
 }
 .email-footer {
   font-family: 'Roboto', sans-serif;
@@ -163,6 +170,15 @@ ul {
   text-align: left;
   color: #ffffff99;
 }
+.email-footer:hover {
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  text-align: left;
+  color: #ffffff;
+}
 .tel-footer {
   font-family: 'Roboto', sans-serif;
   font-size: 14px;
@@ -171,6 +187,15 @@ ul {
   letter-spacing: 0.03em;
   text-align: left;
   color: #ffffff99;
+}
+.tel-footer:hover {
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  text-align: left;
+  color: #ffffff;
 }
 .boton-top-portafolio {
   width: 128px;
@@ -244,6 +269,15 @@ ul {
   line-height: 24px;
   letter-spacing: 0.03em;
   text-align: left;
+  color: #ffffff99;
+}
+.direccion-portafolio:hover {
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  text-align: left;
   color: #ffffff;
 }
 .email-footer-portafolio {
@@ -255,6 +289,15 @@ ul {
   text-align: left;
   color: #ffffff99;
 }
+.email-footer-portafolio:hover {
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  text-align: left;
+  color: #ffffff;
+}
 .tel-footer-portafolio {
   font-family: 'Roboto', sans-serif;
   font-size: 14px;
@@ -263,5 +306,14 @@ ul {
   letter-spacing: 0.03em;
   text-align: left;
   color: #ffffff99;
+}
+.tel-footer-portafolio:hover {
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  text-align: left;
+  color: #ffffff;
 }
 /* Este es el fin del codigo */
