@@ -74,7 +74,7 @@ ul {
   text-align: center;
   background-color: #2f303a;
   align-items: center;
-  width: 1200px;
+  width: auto;
   line-height: 60px;
   letter-spacing: 0.03em;
   display: block;
@@ -168,7 +168,7 @@ ul {
 }
 .footer {
   background: #2f303a;
-  width: 1200px;
+  width: auto;
 }
 .email-footer {
   font-family: 'Roboto', sans-serif;
@@ -271,7 +271,7 @@ ul {
 }
 .footer-portafolio {
   background: #2f303a;
-  width: 1200px;
+  width: auto;
 }
 .direccion-portafolio {
   font-family: 'Roboto', sans-serif;
